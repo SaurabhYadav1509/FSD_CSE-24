@@ -5,18 +5,25 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 import Icard from './components/Icard'
+import IcardGallery from './components/IcardGallery'
+import MyState from './components/MyState'
+import ColorChange from './components/ColorChange'
+import UpdateName from './components/UpdateName'
+import ImageManipulation from './ImageManipulation'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-
     
-<div style={{border:'2px solid red', width:'400px',height:'300px'}}>
+<div >
 
+{/* <IcardGallery/> */}
+{/* <MyState/> */}
+{/* <ColorChange/> */}
+{/* <UpdateName/> */}
 
-<Icard />
+<ImageManipulation/>
 </div>
     </>
   )
