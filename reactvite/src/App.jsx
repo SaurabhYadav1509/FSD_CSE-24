@@ -24,7 +24,7 @@ function App() {
   return (
     <>
     
-<div >
+<div style={{textAlign:'center'}}>
 
 {/* <IcardGallery/> */}
 {/* <MyState/> */}
@@ -36,10 +36,13 @@ function App() {
 
 <BrowserRouter>
 <Routes>
+  <Route path='/' element={<Home />}>
+
   <Route path='/login' element={<Login />}></Route>
   <Route path='/registration' element={<Registration />}></Route>
+
+</Route>  
   <Route path='/dashboard' element={<Dashboard />}></Route>
-  <Route path='/' element={<Home />}></Route>
   
 </Routes>
 </BrowserRouter>
